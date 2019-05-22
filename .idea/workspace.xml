@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ceede32b-1000-42cc-99be-61efb34a8301" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENCE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/checkstyle/checkstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config/checkstyle/suppress.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/Disruptor.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/ide/eclipse/Disruptor_eclipse_formatting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../runme.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../runoffheap.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/AbstractSequencer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/AggregateEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/AlertException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/BatchEventProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/BatchStartAware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/BlockingWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/BusySpinWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/Cursored.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/DataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventPoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventReleaseAware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventReleaser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventSequencer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventSink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventTranslator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventTranslatorOneArg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventTranslatorThreeArg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventTranslatorTwoArg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/EventTranslatorVararg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/ExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/FatalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/FixedSequenceGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/IgnoreExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/InsufficientCapacityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/LifecycleAware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/LiteBlockingWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/LiteTimeoutBlockingWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/MultiProducerSequencer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/NoOpEventProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/PhasedBackoffWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/ProcessingSequenceBarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/RingBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/Sequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/SequenceBarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/SequenceGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/SequenceGroups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/SequenceReportingEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/Sequenced.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/Sequencer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/SingleProducerSequencer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/SleepingWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/TimeoutBlockingWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/TimeoutException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/TimeoutHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/WaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/WorkHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/WorkProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/WorkerPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/YieldingWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/BasicExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/ConsumerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/ConsumerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/Disruptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/EventHandlerGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/EventProcessorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/EventProcessorInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/ExceptionHandlerSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/ExceptionHandlerWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/ProducerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/dsl/WorkerPoolInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/util/DaemonThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/util/ThreadHints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lmax/disruptor/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/AbstractPerfTestDisruptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/AbstractPerfTestQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/PerfTestContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/CustomPerformanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/CustomRingBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/EventAccessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/EventHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/EventHolderHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/SimpleEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/SimpleEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/immutable/SimplePerformanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/offheap/OneToOneOffHeapThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/offheap/OneToOneOnHeapThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/primitive/LongRingBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/queue/OneToOneQueueBatchedThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/queue/OneToOneQueueThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/queue/OneToThreeDiamondQueueThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/queue/OneToThreePipelineQueueThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/queue/OneToThreeQueueThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/queue/PingPongQueueLatencyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/queue/ThreeToOneQueueThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/raw/OneToOneRawBatchThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/raw/OneToOneRawThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/OneToOneSequencedBatchThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/OneToOneSequencedLongArrayThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/OneToOneSequencedPollerThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/OneToOneSequencedThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/OneToThreeDiamondSequencedThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/OneToThreePipelineSequencedThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/OneToThreeSequencedThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/PingPongSequencedLatencyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/ThreeToOneSequencedBatchThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/ThreeToOneSequencedThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/sequenced/ThreeToThreeSequencedThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/EventCountingAndReleasingWorkHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/EventCountingQueueProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/EventCountingWorkHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/FizzBuzzEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/FizzBuzzEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/FizzBuzzQueueProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/FizzBuzzStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/FunctionEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/FunctionEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/FunctionQueueProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/FunctionStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/LongArrayEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/LongArrayPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/MultiBufferBatchEventProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/PerfTestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueAdditionBatchQueueProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueAdditionEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueAdditionQueueProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueAdditionWorkHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueBatchPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueMutationEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueMutationQueueProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValuePublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/support/ValueQueuePublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/translator/OneToOneTranslatorThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/workhandler/OneToThreeReleasingWorkerPoolThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/workhandler/OneToThreeWorkerPoolThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/perftest/java/com/lmax/disruptor/workhandler/TwoToTwoWorkProcessorThroughputTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/AggregateEventHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/BatchEventProcessorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/BatchingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/BusySpinWaitStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/DisruptorStressTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/EventPollerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/EventPublisherTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/EventTranslatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/FatalExceptionHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/FixedSequenceGroupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/IgnoreExceptionHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/LifecycleAwareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/LiteTimeoutBlockingWaitStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/MultiProducerSequencerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/PhasedBackoffWaitStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/RingBufferEventMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/RingBufferTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/RingBufferWithAssertingStubTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/SequenceBarrierTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/SequenceGroupTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/SequenceReportingCallbackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/SequencerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/ShutdownOnFatalExceptionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/SingleProducerSequencerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/SleepingWaitStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/TimeoutBlockingWaitStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/WorkerPoolTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/WorkerStressTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/YieldingWaitStrategyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/ConsumerRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/DisruptorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/DelayedEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/EventHandlerStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/EvilEqualsEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/ExceptionThrowingEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/SleepingEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/StubExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/StubPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/StubThreadFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/dsl/stubs/TestWorkHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/DynamiclyAddHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/EarlyReleaseHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/HandleExceptionOnTranslate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/KeyedBatching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/MultiProducerWithTranslator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/NamedEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/Pipeliner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/PullWithBatchedPoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/PullWithPoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/SequentialThreeConsumers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/ShutdownOnError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/ThreeToOneDisruptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/WaitForProcessing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/example/WaitForShutdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/DummyEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/DummyEventProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/DummySequenceBarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/DummyWaitStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/LongEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/SequenceUpdater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/StubEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/TestEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/TestWaiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/support/WaitStrategyTestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/util/MutableLong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/util/PaddedLong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/lmax/disruptor/util/UtilTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="199" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Test1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="427" />
+    <option name="width" value="1440" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <module name="test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ceede32b-1000-42cc-99be-61efb34a8301" name="Default Changelist" comment="" />
+      <created>1558488184193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558488184193</updated>
+      <workItem from="1558488187101" duration="910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="910000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="427" y="0" width="1440" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24863088" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32971016" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test$Test1.ic" NAME="Test1 Coverage Results" MODIFIED="1558488356063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
